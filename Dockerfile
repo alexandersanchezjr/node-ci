@@ -1,4 +1,4 @@
-FROM registry.access.redhat.com/ubi8/nodejs-16:latest
+FROM node:18
 
 COPY package*.json ./
 
